@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 const app = express();
 const port = 3000;
-const filesDir = path.join("F:/Ms Visual/REAL/REACT/time", "files");
+const filesDir = path.join("project/build", "files");
 
 // Create 'files' directory if it doesn't exist
 if (!fs.existsSync(filesDir)) {
