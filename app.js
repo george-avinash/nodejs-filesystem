@@ -1,9 +1,9 @@
 const express = require("express");
-const fs = require("fs-extra");
+const { writeFileSync, existsSync, mkdirSync, readdirSync, readFileSync} = require("fs");
 const path = require("path");
 const app = express();
 const port = 3000;
-const filesDir = path.join("./public", "src");
+const filesDir = ;
 
 // Create 'files' directory if it doesn't exist
 if (!fs.existsSync(filesDir)) {
